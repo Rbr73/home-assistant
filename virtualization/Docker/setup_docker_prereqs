@@ -43,16 +43,12 @@ if [ "$INSTALL_TELLSTICK" == "yes" ]; then
   virtualization/Docker/scripts/tellstick
 fi
 
-if [ "$INSTALL_OPENALPR" == "yes" ]; then
-  virtualization/Docker/scripts/openalpr
-fi
-
-if [ "$INSTALL_FFMPEG" == "yes" ]; then
-  virtualization/Docker/scripts/ffmpeg
-fi
-
 if [ "$INSTALL_LIBCEC" == "yes" ]; then
   virtualization/Docker/scripts/libcec
+fi
+
+if [ "$INSTALL_OPENALPR" == "yes" ]; then
+  virtualization/Docker/scripts/openalpr
 fi
 
 if [ "$INSTALL_PHANTOMJS" == "yes" ]; then
@@ -61,6 +57,10 @@ fi
 
 if [ "$INSTALL_COAP_CLIENT" == "yes" ]; then
   virtualization/Docker/scripts/coap_client
+fi
+
+if [ "$INSTALL_FFMPEG" == "yes" ]; then
+  virtualization/Docker/scripts/ffmpeg
 fi
 
 if [ "$INSTALL_SSOCR" == "yes" ]; then
