@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 from homeassistant.const import (__version__, PROJECT_PACKAGE_NAME,
                                  PROJECT_LICENSE, PROJECT_URL,
                                  PROJECT_EMAIL, PROJECT_DESCRIPTION,
-                                 PROJECT_CLASSIFIERS, GITHUB_URL,
+                                 PROJECT_CLASSIFIERS, PROJECT_BUILDNUM, GITHUB_URL,
                                  PROJECT_AUTHOR)
 
 HERE = os.path.abspath(os.path.dirname(__file__))
